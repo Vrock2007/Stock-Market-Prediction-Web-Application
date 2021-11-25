@@ -124,11 +124,4 @@ plt.plot(valid[['Close']], 'r')
 plt.plot(valid[['Predictions']], 'g')
 st.pyplot(fig)
 
-# st.subheader('Closing Price vs Time Chart with 100MA & 200MA')
-# ma100 = df.Close.rolling(100).mean()
-# ma200 = df.Close.rolling(200).mean()
-# fig = plt.figure(figsize=(16, 8))
-# plt.plot(ma100)
-# plt.plot(ma200)
-# plt.plot(df.Close)
-# st.pyplot(fig)
+
